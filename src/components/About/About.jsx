@@ -38,7 +38,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, natus unde amet excepturi mollitia repudiandae veniam ipsam repellendus eaque voluptatem, ducimus, pariatur totam. Labore aspernatur atque quos autem eos ipsum eligendi fugit dolores numquam corrupti ducimus quasi doloremque, pariatur praesentium. Sunt vitae voluptatibus aliquid delectus fuga ullam adipisci, nihil cupiditate.
+          I am a full-stack developer with over 1 years of experience in building scalable web applications. Skilled in both front-end and back-end development, I specialize in the MERN stack and other modern technologies to create seamless user experiences and efficient solutions.
           </p>
           {/* CV Button */}
           <a

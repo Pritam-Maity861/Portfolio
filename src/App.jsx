@@ -22,7 +22,7 @@ const App = () => {
         <Navbar/>
         <About/>
         <Skills/>
-        <Experience/>
+        {/* <Experience/> */}
         <Work/>
         <Education/>
         <Contact/>
