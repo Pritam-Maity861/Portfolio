@@ -30,6 +30,9 @@ import SchoolLogo from "./assets/hq720.jpg"
 // Project Section Logo's
 import BlogApp from "./assets/BlogApp.png"
 import CURDAPP from "./assets/CURD app.png"
+import food_ordering_app from "./assets/food-ordering-app.png"
+import chatapp from "./assets/chat-app.png"
+
 
 
 export const SkillsInfo = [
@@ -107,23 +110,43 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Food Oredring Website",
+      description:
+       "Food Ordering Website is a full-stack web application where users can browse restaurants, explore food menus, add items to their cart, and place orders with ease. Currently, the platform supports Cash on Delivery (COD) for completing purchases, with a smooth ordering flow and order management system for both users and restaurants.",
+      image: food_ordering_app,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Expressjs","Mongodb"],
+      github: "https://github.com/Pritam-Maity861/Food-Ordering-Website",
+      webapp: "https://khaddoroshik.netlify.app/",
+    },
+    {
+      id: 1,
+      title: "Real-Time Chat App",
+      description:
+       "Real-Time Chat App – A web-based application that allows users to send and receive messages instantly using WebSockets. It supports user authentication, secure messaging, and real-time communication between multiple users, making it fast and interactive like popular chat platforms.",
+      image: chatapp,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Expressjs","Mongodb"],
+      github: "https://github.com/Pritam-Maity861/Blog-App",
+      webapp: "https://golpogujob.netlify.app/",
+    },
+    {
+      id: 2,
       title: "Blog Website",
       description:
        "A sleek and responsive Blog App built with React.js that allows users to read, create, and manage blog posts effortlessly. Featuring a modern UI and smooth navigation, the app supports dynamic content rendering, markdown formatting, and real-time updates. Perfect for writers, developers, and anyone looking to share their thoughts with the world.",
       image: BlogApp,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "Expressjs","Mongodb"],
       github: "https://github.com/Pritam-Maity861/Blog-App",
-      webapp: "",
+      webapp: "https://github.com/Pritam-Maity861/Blog-App",
     },
     
     {
-      id: 1,
+      id: 3,
       title: "CURD App",
       description:
         "A simple yet powerful CURD (Create, Update, Read, Delete) application built with React.js. The app allows users to manage a list of items, such as tasks, notes, or products, with ease. With an intuitive interface, users can add new entries, edit existing ones, view details, and remove items seamlessly. Ideal for anyone looking to practice or implement basic CRUD operations in a web app.",
       image: CURDAPP,
       tags: ["React JS", "HTML", "CSS", "JavaScript","Expressjs","Mongodb"],
       github: "https://github.com/Pritam-Maity861/CURD-APP",
-      webapp: "",
+      webapp: "https://github.com/Pritam-Maity861/CURD-APP",
     },
   ];  

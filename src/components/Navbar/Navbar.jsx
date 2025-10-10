@@ -38,7 +38,7 @@ const Navbar = () => {
 
   const handleLogoClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-    setIsSelected(""); // Reset selected nav item if you want
+    setIsSelected("");
     setIsOpen(false);
   };
 
