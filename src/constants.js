@@ -11,15 +11,23 @@ import mysqlLogo from './assets/mysql.png';
 import mongodbLogo from './assets/mongodb.png';
 import cLogo from './assets/c.png';
 import javaLogo from './assets/java.png';
-import pythonLogo from './assets/python.png';
 import gitLogo from './assets/git.png';
 import githubLogo from './assets/github.png';
 import vscodeLogo from './assets/vscode.png';
 import postmanLogo from './assets/postman.png';
+import postgresql_logo from './assets/postgresql_logo.png';
 import mcLogo from './assets/mc.png';
 import netlifyLogo from './assets/netlify.png';
+import render_logo from './assets/render_logo.png';
+import redis_logo from './assets/redis.png'
 import vercelLogo from './assets/vercel.png';
+import sql_logo from './assets/sql_logo.jpg'
 import movie_ticket_booking from '../public/movie-ticket-booking.png'
+import prisma_logo from './assets/prisma_logo.jpg';
+import typescript_logo from './assets/typescript_logo.png';
+import mui_logo from './assets/mui_logo.png';
+import shadcn_logo from './assets/shadcn_logo.png';
+
 
 // Experience Section Logo's
 
@@ -46,6 +54,8 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'MUI', logo: mui_logo },
+      { name: 'Shadcn', logo: shadcn_logo },
     ],
   },
   {
@@ -53,8 +63,15 @@ export const SkillsInfo = [
     skills: [
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
+    ],
+  },
+  {
+    title: 'Database',
+    skills: [
       { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'Postgresql', logo: postgresql_logo },
+      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'redis', logo: redis_logo },
     ],
   },
   {
@@ -62,12 +79,13 @@ export const SkillsInfo = [
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'JavaScript', logo: javascriptLogo }
+      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'TypeScript', logo: typescript_logo },
+      { name: 'SQL', logo: sql_logo }
     ],
   },
   {
-    title: 'Tools',
+    title: 'Tools & ORM',
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
@@ -75,7 +93,9 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo }
+      { name: 'Netlify', logo: netlifyLogo },
+      { name: 'Render', logo: render_logo },
+      { name: 'Prisma', logo: prisma_logo },
     ],
   },
 ];
@@ -115,7 +135,7 @@ export const SkillsInfo = [
       description:
        "A high-performance, full-stack web application designed to streamline the cinema-going experience. This platform provides a seamless end-to-end journey for users—from discovering the latest blockbusters and watching trailers to selecting seats and receiving digital tickets. Simultaneously, it features a powerful administrative suite for theater owners to manage movies, screens, showtimes, and payments in real-time.",
       image: movie_ticket_booking,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "Expressjs","Mongodb"],
+      tags: [ "TypeScript", "React JS", "Expressjs","Postgresql","Redis","Prisma","Razorpay","nodejs"],
       github: "https://github.com/Pritam-Maity861/Movie-Ticket-Booking-server",
       webapp: "https://chobighor.vercel.app/",
     },
