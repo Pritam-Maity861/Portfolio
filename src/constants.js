@@ -19,6 +19,7 @@ import postmanLogo from './assets/postman.png';
 import mcLogo from './assets/mc.png';
 import netlifyLogo from './assets/netlify.png';
 import vercelLogo from './assets/vercel.png';
+import movie_ticket_booking from '../public/movie-ticket-booking.png'
 
 // Experience Section Logo's
 
@@ -110,6 +111,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Movie Ticket Booking System",
+      description:
+       "A high-performance, full-stack web application designed to streamline the cinema-going experience. This platform provides a seamless end-to-end journey for users—from discovering the latest blockbusters and watching trailers to selecting seats and receiving digital tickets. Simultaneously, it features a powerful administrative suite for theater owners to manage movies, screens, showtimes, and payments in real-time.",
+      image: movie_ticket_booking,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Expressjs","Mongodb"],
+      github: "https://github.com/Pritam-Maity861/Movie-Ticket-Booking-server",
+      webapp: "https://chobighor.vercel.app/",
+    },
+    {
+      id: 1,
       title: "Food Oredring Website",
       description:
        "Food Ordering Website is a full-stack web application where users can browse restaurants, explore food menus, add items to their cart, and place orders with ease. Currently, the platform supports Cash on Delivery (COD) for completing purchases, with a smooth ordering flow and order management system for both users and restaurants.",
@@ -119,7 +130,7 @@ export const SkillsInfo = [
       webapp: "https://khaddoroshik.netlify.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "Real-Time Chat App",
       description:
        "Real-Time Chat App – A web-based application that allows users to send and receive messages instantly using WebSockets. It supports user authentication, secure messaging, and real-time communication between multiple users, making it fast and interactive like popular chat platforms.",
@@ -129,7 +140,7 @@ export const SkillsInfo = [
       webapp: "https://golpogujob.netlify.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Blog Website",
       description:
        "A sleek and responsive Blog App built with React.js that allows users to read, create, and manage blog posts effortlessly. Featuring a modern UI and smooth navigation, the app supports dynamic content rendering, markdown formatting, and real-time updates. Perfect for writers, developers, and anyone looking to share their thoughts with the world.",
@@ -140,7 +151,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 3,
+      id: 4,
       title: "CURD App",
       description:
         "A simple yet powerful CURD (Create, Update, Read, Delete) application built with React.js. The app allows users to manage a list of items, such as tasks, notes, or products, with ease. With an intuitive interface, users can add new entries, edit existing ones, view details, and remove items seamlessly. Ideal for anyone looking to practice or implement basic CRUD operations in a web app.",
